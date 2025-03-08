@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/App.css";
-import logo from "../assets/linkcraft-logo.jpg"
+import logo from "../assets/linkcraft-logo.png"
+// import jobs from "../assets/jobs.svg"
 function Navbar() {
   return (
     <>
@@ -11,13 +12,12 @@ function Navbar() {
           </div>
 
           <ul>
-            <li><a  className="navlink" href="">Company</a></li>
-            <li><a className="navlink" href="#about">About Us</a></li>
-            <li><a className="navlink" href="#services">Services</a></li>
+            <li className="no"><a className="navlink" href="#about">About Us</a></li>
+            <li className="no"><a className="navlink" href="#services">Services</a></li>
           </ul>
           
           <div>
-            <button className="contact-btn">Contact Us</button>
+            <a href="#contact"><button className="contact-btn">Contact Us</button></a>
           </div>
         </nav>
       </div>
