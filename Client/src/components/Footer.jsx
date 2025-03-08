@@ -35,7 +35,7 @@ function Footer() {
           <div className="top-left">
             <span>Ready to get started?</span>
             <span>
-              <button className="btn1">Let's Talk</button>
+              <button className="btn1"><a href="#contact">Let's Talk</a></button>
             </span>
           </div>
         </div>

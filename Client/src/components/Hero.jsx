@@ -11,8 +11,8 @@ function Hero() {
               We handle everything your business needs to scale.
             </div>
             <div className="hero-btns">
-              <button className="btn1">About us</button>
-              <button className="btn2">Get Started</button>
+              <button className="btn1"><a href="#about">About us</a></button>
+              <button className="btn2"><a href="#contact">Get Started</a></button>
             </div>
           </div>
           <div className="containerR">
