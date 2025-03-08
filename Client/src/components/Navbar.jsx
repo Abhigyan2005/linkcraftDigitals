@@ -6,8 +6,9 @@ function Navbar() {
     <>
       <div className="navContainer">
         <nav>
-          <div>
+          <div className="company">
            <img src={logo} className="logo" alt="Logo" />
+           <span>LinkCraft Digitals</span>
           </div>
 
           <ul>

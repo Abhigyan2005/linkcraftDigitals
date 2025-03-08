@@ -515,7 +515,6 @@ footer {
   padding: 10px;
   width: 125px;
 }
-/* 🔹 Media Queries for Responsiveness */
 @media screen and (max-width: 1024px) {
   .footer-top {
     flex-direction: column;
@@ -567,33 +566,10 @@ footer {
   }
 }
 
-/*dropdown*/
-
-/* .dropdown{
-  position: relative;
-}
-.dropdown .content{
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
-  min-width: 200px;
-  border-radius: 10px;
-  min-height: 100px;
-  display: none;
-  top: 39px;
-}
-
-.content span a{
-  padding: 10px 15px;
-  color: white;
-}
-
-.dropdown:hover .content{
-  display: inline-block;
-}
-
-
-.content-item{
+.company{
   display: flex;
   align-items: center;
-  justify-content: center;
-} */
+  font-family: sans-serif;
+  font-weight: 700;
+  gap: 5px;
+}
