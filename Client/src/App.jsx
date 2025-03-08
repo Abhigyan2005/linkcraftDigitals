@@ -9,7 +9,7 @@ import "./css/App.css";
 function App() {
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "../public/animation.js";
+    script.src = "/animation.js";
     script.id = "animation-script";
 
     if (!document.getElementById("animation-script")) {
